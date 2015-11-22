@@ -1,4 +1,4 @@
-# The script below aims to fullfill the task for 
+# The script below aims to fulfill the task for 
 # the course project for the "Getting and Cleaning Data"
 # course on Coursera.
 
@@ -18,7 +18,7 @@
 #   1. For tasks 1 to 4 - resultSet
 #   2. For task 5       - averageSet
 
-# At the very end the script writea the averageSet to a .txt file.
+# At the very end the script writes the averageSet to a .txt file.
 
 # ----------------------------Part 1--------------------------------------------
 
