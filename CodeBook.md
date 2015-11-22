@@ -5,7 +5,7 @@
 
 "averageSet" a resulting dataset being created by the run_analysis.R script placed in this repository. The base data set used for the "averageSet" is created from data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The detailed description of the research is available in the **README.txt** file included into the Samsung dataset.
+The detailed description of the research and the initial dataset files as well as it's licensing information is available in the **README.txt** file included into the Samsung dataset.
 
 ## Variables and observations
 
