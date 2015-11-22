@@ -18,11 +18,11 @@
 #   1. For tasks 1 to 4 - resultSet
 #   2. For task 5       - averageSet
 
-# At the very end the script writes the averageSet to a .txt file.
+# At the very end the script writea the averageSet to a .txt file.
 
 # ----------------------------Part 1--------------------------------------------
 
-# Load "dplyr" package. I use the package to create a data set 
+# Load "dplyr" package. The package is used to create a data set 
 # with the average of each variable for the point 5:
 library(dplyr)
 
@@ -36,7 +36,7 @@ if(!file.exists("data")){dir.create("data")}
 ## dateDownloaded <- date()
 ## unzip("./data/Dataset.zip", exdir = "./data")
 
-unzip("Dataset.zip", exdir = "./data")
+unzip("getdata_projectfiles_UCI HAR Dataset.zip", exdir = "./data")
 
 # Get Features (will be used to name variables) 
 # and Activity Labels (will be used to label Activities) into R objects:
