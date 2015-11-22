@@ -3,9 +3,7 @@
 
 ## Overall description 
 
-"averageSet" a resulting dataset being created by the run_analysis.R script.  
-The dataset is created by the run_analysis.R script placed in this repository.   
-The base data set the averageSet is created from data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+"averageSet" a resulting dataset being created by the run_analysis.R script. The dataset is created by the run_analysis.R script placed in this repository. The base data set the averageSet is created from data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Variables and observations
 
