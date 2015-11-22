@@ -2,7 +2,7 @@
 
 This is a repository for the Course Project of "Getting and Cleaning Data" Coursera course. The course is accessible here https://class.coursera.org/getdata-034
 
-# The script's destination
+## The script's destination
 
 There is a script "run_analysis.R" in the repo which aims to fulfill the task for the course project for the "Getting and Cleaning Data" course on Coursera.
 
