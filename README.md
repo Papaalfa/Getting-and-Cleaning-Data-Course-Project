@@ -8,9 +8,10 @@ There is a script "run_analysis.R" in the repo which aims to fulfill the task fo
 
 ## The script's structure
 
-In the first part the script unzips Samsung Dataset from the working directory and loads subsets (test, train and support sets) into R objects. There is also a commented code in the script to download the Samsung data set from the link mentioned in the assignment instructions.
+### In the first part:
+The script unzips Samsung Dataset from the working directory and loads subsets (test, train and support sets) into R objects. There is also a commented code in the script to download the Samsung data set from the link mentioned in the assignment instructions.
 
-In the second part it does the next five things:
+### In the second part it does the next five things:
  1. Merges the training and the test sets to create one data set.
  2. Extracts only the measurements on the mean and standard deviation for each measurement. 
  3. Adds descriptive activity names to name the activities in the data set
