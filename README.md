@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project Repository
 
-This is a repository for the Course Project of "Getting and Cleaning Data" Coursera course. The course is accessible here https://class.coursera.org/getdata-034 and is a part of the Data Science Specialization https://www.coursera.org/specializations/jhudatascience
+This is a repository for the Course Project of "Getting and Cleaning Data" Coursera course. The course is accessible here https://class.coursera.org/getdata-034 and is a part of the [Data Science Specialization](https://www.coursera.org/specializations/jhudatascience).
 
 ## The script's destination
 
