@@ -25,3 +25,22 @@ The resulting sets are:
    2. For task 5       - averageSet
 
 At the very end the script writes the averageSet to an averageSet.txt file.
+
+## Script details
+
+### Packages used
+It is a dplyr package (https://cran.r-project.org/web/packages/dplyr/index.html) used in to make a resulting data set.
+
+### Part 1
+
+1. Firstly after unzippint the set the script gets Features (will be used to name variables) and Activity Labels (will be used to label Activities) into R objects with read.table function.
+2. Then it prepares Test and Training sets by getting measures, activities and subjects sets from different files into R with read.table function and then combining them with cbind().
+
+### Part 2
+
+1. The script combines Test and Training sets into one set named fullSet with rbind()
+2. Assigns descriptive names to the variables of the fullSet
+3. Extracts only means and standard deviations variables by leaving in the set only those variables which contain "mean()" or "std()" in their names.
+4. Add descriptive activity names to name the activities in the data set by merging the set with the Activity Labels set by the activities ids.
+5. Makes a new data set with the average of each variable for each activity and each subject by using a pipelined group_by() and summarise_each() functions from the dplyr package.
+6. At the very end the script writes the averageSet to an averageSet.txt file.
