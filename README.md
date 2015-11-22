@@ -24,4 +24,4 @@ The resulting sets are:
    1. For tasks 1 to 4 - resultSet
    2. For task 5       - averageSet
 
-At the very end the script writea the averageSet to an averageSet.txt file.
+At the very end the script writes the averageSet to an averageSet.txt file.
