@@ -21,12 +21,12 @@ Each observation stands for an average of means and standard deviations from the
 The variables are:
 
 **Activity.Label** - are labels for differents activities of subjects from the possible set of:
-      1. WALKING
-      2. WALKING_UPSTAIRS
-      3. WALKING_DOWNSTAIRS
-      4. SITTING
-      5. STANDING
-      6. LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
       
 **Subject** - are subjects IDs which can be from 1 to 30 indicating a certain person performing testings for the research.
 
