@@ -19,7 +19,7 @@ Each observation stands for an average of means and standard deviations from the
 
 The variables are:
 
-Activity.Label - are labels for differents activities of subjects from the possible set of:
+**Activity.Label** - are labels for differents activities of subjects from the possible set of:
       1. WALKING
       2. WALKING_UPSTAIRS
       3. WALKING_DOWNSTAIRS
@@ -27,8 +27,8 @@ Activity.Label - are labels for differents activities of subjects from the possi
       5. STANDING
       6. LAYING
       
-'''Subject''' - are subjects IDs which can be from 1 to 30 indicating a certain person performing testings for the research.
+**Subject** - are subjects IDs which can be from 1 to 30 indicating a certain person performing testings for the research.
 
-Average.* - All the other 66 variables starting with "Average." are averages of the corresponding means and standard deviations from the initial Samsung dataset. 
+**Average.*** - All the other 66 variables starting with "Average." are averages of the corresponding means and standard deviations from the initial Samsung dataset. 
 The averages are taken for each activity and each subject. 
 The initial variables are decribed in the features_info.txt file from the Samsung dataset.
