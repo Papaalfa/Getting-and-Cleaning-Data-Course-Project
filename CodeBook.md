@@ -5,6 +5,8 @@
 
 "averageSet" a resulting dataset being created by the run_analysis.R script placed in this repository. The base data set used for the "averageSet" is created from data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+The detailed description of the research is available in the **README.txt** file included into the Samsung dataset.
+
 ## Variables and observations
 
 There are 68 variables and 180 observations in the resulting dataset.
@@ -17,7 +19,7 @@ Each observation stands for an average of means and standard deviations from the
 
 The variables are:
 
-**Activity.Label** - are labels for differents activities of subjects from the possible set of:  
+**Activity.Label** - are labels for differents activities of subjects from the set of:  
 1. WALKING  
 2. WALKING_UPSTAIRS  
 3. WALKING_DOWNSTAIRS  
@@ -29,4 +31,4 @@ The variables are:
 
 **Average.*** - All the other 66 variables starting with "Average." are averages of the corresponding means and standard deviations from the initial Samsung dataset.   
 The averages are taken for each activity and each subject. 
-The initial variables are decribed in the features_info.txt file from the Samsung dataset.
+The initial variables are decribed in the **features_info.txt** file from the Samsung dataset.
