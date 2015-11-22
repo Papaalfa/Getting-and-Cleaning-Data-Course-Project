@@ -25,10 +25,12 @@ The variables are:
 3. WALKING_DOWNSTAIRS  
 4. SITTING  
 5. STANDING  
-6. LAYING  
+6. LAYING 
+***Units are activity types.***
       
-**Subject** - are subjects IDs which can be from 1 to 30 indicating a certain person performing testings for the research.
+**Subject** - are subjects IDs which can be from 1 to 30 indicating a certain person performing testings for the research. ***Units are subjects IDs.***
 
 **Average.*** - All the other 66 variables starting with "Average." are averages of the corresponding means and standard deviations from the initial Samsung dataset.   
 The averages are taken for each activity and each subject. 
+***Units are averages of means measures for variables having "mean" in their names and averages of standard deviations measures for variables having "std" in their names.***
 The initial variables are decribed in the **features_info.txt** file from the Samsung dataset.
